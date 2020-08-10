@@ -1,0 +1,32 @@
+.title{
+  margin-top: 50px;
+  text-align: center;
+  color: var(--color-orange);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.leaveGroup{
+  margin: 50px;
+  text-align: center;
+}
+.leaveGroup a{
+  color: #FFF;
+  background-color: var(--color-orange);
+  border-radius: 50px;
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+.info h3{
+  font-size: 25px;
+  color: #265E7A;
+}

@@ -1,0 +1,42 @@
+.modal-login form{
+  display: block;
+}
+.modal-login input{
+  width: 29.2rem;
+  display: block;
+  margin: 15px auto;
+  height: 6rem;
+  background: #EEEEEE;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 8rem;
+  padding: 2rem;
+  
+}
+
+.modal-login .button{
+  width: 29.2rem;
+  height: 7rem;
+  background: var(--color-orange);
+  color: white;
+  border: 0;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.modal-login a{
+  color: var(--color-orange);
+  font-size: 2rem;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 1.4rem;
+  font-size: 4.2rem;
+  transform: rotate(45deg);
+  cursor: pointer;
+}

@@ -1,0 +1,5 @@
+.addButton{
+  background: var(--color-orange);
+  color: #FFF;
+  font-weight: bold;
+}

@@ -1,0 +1,196 @@
+
+#button{
+  grid-area: button;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+#login{
+  width: 40%;
+  height: 5.6rem;
+  background: var(--color-orange);
+  color: white;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.2s;
+  margin: 0;
+} 
+
+main .container{
+  display: flex;
+  margin-top: 50px;
+}
+
+.container .col-1{
+  width: 580px; 
+  align-self: center;  
+}
+
+.container .col-1 h1{
+  color: var(--color-orange);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.2em;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+}
+
+.container .col-1 h3{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 3.5rem;    
+  letter-spacing: 0.05em;
+  margin-bottom: 5rem;
+}
+
+.container .col-2{
+  width: 630px;
+}
+
+.container .col-1 .form-busca-grupos{
+  display: flex;
+  margin-bottom: 30rem;
+}
+
+.container .col-1 .button{
+  width: 20rem;
+  height: 8rem;
+  background: var(--color-orange);
+  color: white;
+  border: 0;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.2s;
+  position: absolute;
+  margin-left: 50rem;
+}
+
+.container .col-1 .button:hover{
+  opacity: 1;
+}
+
+
+.container .col-1 input{
+  width: 50rem;
+  height: 8rem;
+  background: #EEEEEE;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 80px;
+  padding: 2rem;
+}
+
+input::placeholder{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.0rem;
+  line-height: 2.9rem;    
+  text-align: center;
+  color: #444444;
+}
+
+
+.container .col-2 img{
+  width: 630px;
+  z-index: 1;
+}
+
+
+.bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-login{
+  width: 50rem;
+  height: 50rem;
+  background-color: white;
+  border-radius: 4rem;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.modal-login input{
+  width: 29.2rem;
+  display: block;
+  margin: 15px auto;
+  height: 6rem;
+  background: #EEEEEE;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 8rem;
+  padding: 2rem;
+  
+}
+
+.modal-login .button{
+  width: 29.2rem;
+  height: 7rem;
+  background: var(--color-orange);
+  color: white;
+  border: 0;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.modal-login a{
+  color: var(--color-orange);
+  font-size: 2rem;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 1.4rem;
+  font-size: 4.2rem;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.fechar{
+  position: absolute;
+  top: 0;
+  right: 1.4rem;
+  font-size: 4.2rem;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.cadastrar {
+  background-color: white;
+  color: var(--color-orange);
+  border: none;
+  border-bottom: 1px solid var(--color-orange);
+  padding: 0.3rem;
+  font-size: 2.2rem;
+  cursor: pointer;
+}

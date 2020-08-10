@@ -1,0 +1,14 @@
+.title{
+  margin-top: 50px;
+  text-align: center;
+  color: #E03F13;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.deleteGroup{
+  text-align: right;
+}
+.deleteGroup a{
+  color: #265E7A;
+}
